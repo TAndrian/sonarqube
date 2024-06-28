@@ -1,4 +1,4 @@
 FROM sonarqube:latest
-COPY sonar.properties /opt/sonarqube/conf/
+#COPY sonar.properties /opt/sonarqube/conf/
 EXPOSE 9000
-CMD ["./bin/run.sh"]
+#CMD ["./bin/run.sh"]
